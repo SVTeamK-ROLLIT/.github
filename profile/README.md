@@ -1,5 +1,11 @@
 # 프로젝트 소개
-***Roll IT!*** 은 친한 친구 또는 친해지고 싶은 사람 등 다양한 사람들에게 익명의 힘을 빌려 메세지를 남길 수  있는 롤링페이퍼 서비스입니다.
+<div align=center>
+
+<image width=25%, height=25%, src="https://user-images.githubusercontent.com/103196409/214590395-b5bcbedc-e9cb-4c4e-97e5-f156b8ffa623.png">
+
+***ROLL IT!*** 은 친한 친구 또는 친해지고 싶은 사람 등 다양한 사람들에게 익명의 힘을 빌려 메세지를 남길 수  있는 롤링페이퍼 서비스입니다.
+</div>
+
 ***
 ## 1. 시스템 아키텍처
 
@@ -12,15 +18,18 @@
 
 분야| 사용 기술|
 :--------:|:------------------------------:|
-Fronted | react
-Backend | django, django rest framework
-DevOps | cadvisor, node-exporter
+**Fronted** | <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+**Backend** | <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white"> <img src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray"> <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=RabbitMQ&logoColor=white"> <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=Celery&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white">
+**DevOps** | <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=black"> <img src="https://img.shields.io/badge/gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=black"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=OpenCV&logoColor=white">
+**Monitoring** |   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=black"> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=black"> <img src = "https://img.shields.io/badge/-cadvisor-informational"> <img src ="https://img.shields.io/badge/-node--exporter-brightgreen">
 </div>
 
 ***
 ## 3. ERD
 
-<image src="https://user-images.githubusercontent.com/103196409/214505660-fb892945-ffd9-4a9f-8626-0e2f24182674.png">
+<!--<image src="https://user-images.githubusercontent.com/103196409/214505660-fb892945-ffd9-4a9f-8626-0e2f24182674.png">-->
+![RollIT-ERD](https://user-images.githubusercontent.com/103196409/214745383-0c862036-cd7a-4702-af4c-2f8808959316.png)
+- https://www.erdcloud.com/d/SKxFB7zrtQZXfGh6t
 
 ***
 ## 4. API
