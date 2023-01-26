@@ -9,7 +9,7 @@
 ***
 ## 1. 시스템 아키텍처
 
-<image src="https://user-images.githubusercontent.com/103196409/214505633-78252cbf-caf1-42dc-ab75-14a9be482b89.png">
+<image src="https://user-images.githubusercontent.com/103196409/214876886-5b5bbd0b-0dab-44ea-90a3-b36b70750ab5.png">
 
 ***
 ## 2. 기술 스택
@@ -18,9 +18,9 @@
 
 분야| 사용 기술|
 :--------:|:------------------------------:|
-**Fronted** | <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-**Backend** | <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white"> <img src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray"> <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=RabbitMQ&logoColor=white"> <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=Celery&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white">
-**DevOps** | <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=black"> <img src="https://img.shields.io/badge/gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=black"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=OpenCV&logoColor=white">
+**Fronted** | <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/ReactQuery-FF4154?style=for-the-badge&logo=reactquery&logoColor=black"> <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white">
+**Backend** | <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white"> <img src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray"> <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=RabbitMQ&logoColor=white"> <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=Celery&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=OpenCV&logoColor=white">
+**DevOps** | <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=black"> <img src="https://img.shields.io/badge/gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=black"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> 
 **Monitoring** |   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=black"> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=black"> <img src = "https://img.shields.io/badge/-cadvisor-informational"> <img src ="https://img.shields.io/badge/-node--exporter-brightgreen">
 </div>
 
@@ -51,11 +51,11 @@
 
 **Main** | **Register** | **Login**
 :---:|:-------:|:---:|
-image | image | image
+ image | image <!--img src="https://user-images.githubusercontent.com/103196409/214795136-1b9469a5-b9c9-4d2c-9b26-8552aba0a77c.gif" width="100%"--> | image
 
 **Create RollingPaper** | **Add Memo**|**Add Images** 
 :---:|:---:|:---:
-image | image 
+image | image | image
 
 **Add Sticker** | **My Page** | **Send Url**
 :---:|:---:|:---:
@@ -68,18 +68,37 @@ image | image| image
 ***
 ## 6. DEMO
 
-
 ***
 ## 7. 사용 방법
 
 >### Clone Repository
 ```
-git clone https://
+git clone https://github.com/2022-Winter-Bootcamp-Team-K/docker.git
 ```
 >### Set environment file
-Path : '~'
+Path : docker/frontend/.env<br>
+프로젝트 연결을 위한 URL 환경변수
 ```
-code
+REACT_APP_BACKEND_URL=
+```
+
+Path : docker/backend/backend/.env<br>
+Django secret key, S3 bucket, Email 공유 환경변수
+```
+SECRET_KEY=''
+DEBUG=True
+DATABASE_URL=mysql://root:root@mysqldb:3306/test
+
+AWS_ACCESS_KEY_ID=''
+AWS_SECRET_ACCESS_KEY=''
+AWS_REGION=''
+BUCKET_NAME=''
+EMAIL_ADDR=''
+EMAIL_PASSWORD=''
+```
+>### Run
+```
+docker compose -f docker-compose.prod.yaml up —build
 ```
 
 ***
@@ -90,8 +109,4 @@ code
 :---:|:---:|:---:|:---:|:---:|:---:
 역할 | Team Leader, FrontEnd, DevOps | FrontEnd | BackEnd | Backend | FrontEnd
 GitHub | [@yunhobb](https://github.com/yunhobb) | [@minseok1015](https://github.com/minseok1015) | [@Doncham](https://github.com/Doncham) | [@Haaein](https://github.com/Haaein) | [@junvhui](https://github.com/junvhui)
-
-***
-## 9. 참고자료
-
 
