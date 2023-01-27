@@ -28,7 +28,7 @@
 ## 3. ERD
 
 <!--<image src="https://user-images.githubusercontent.com/103196409/214505660-fb892945-ffd9-4a9f-8626-0e2f24182674.png">-->
-![RollIT-ERD](https://user-images.githubusercontent.com/103196409/215019663-e419160e-482b-4e0a-acd9-a6dd1f0037c4.png)
+![RollIT-ERD](https://user-images.githubusercontent.com/103196409/215128071-858f1c9f-6df5-4fe0-9d45-d7a1718776ad.png)
 - https://www.erdcloud.com/d/SKxFB7zrtQZXfGh6t
 
 ***
