@@ -1,7 +1,7 @@
 # 프로젝트 소개
 <div align=center>
 
-<image width=25%, height=25%, src="https://user-images.githubusercontent.com/103196409/214590395-b5bcbedc-e9cb-4c4e-97e5-f156b8ffa623.png">
+<image width=25%, height=25%, src="https://user-images.githubusercontent.com/103196409/215019817-217224b4-b638-4fbb-98be-57e4988e9523.png">
 
 ***ROLL IT!*** 은 친한 친구 또는 친해지고 싶은 사람 등 다양한 사람들에게 익명의 힘을 빌려 메세지를 남길 수  있는 롤링페이퍼 서비스입니다.
 </div>
@@ -28,7 +28,7 @@
 ## 3. ERD
 
 <!--<image src="https://user-images.githubusercontent.com/103196409/214505660-fb892945-ffd9-4a9f-8626-0e2f24182674.png">-->
-![RollIT-ERD](https://user-images.githubusercontent.com/103196409/214745383-0c862036-cd7a-4702-af4c-2f8808959316.png)
+![RollIT-ERD](https://user-images.githubusercontent.com/103196409/215019663-e419160e-482b-4e0a-acd9-a6dd1f0037c4.png)
 - https://www.erdcloud.com/d/SKxFB7zrtQZXfGh6t
 
 ***
