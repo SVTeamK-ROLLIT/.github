@@ -89,9 +89,10 @@ Kibana | 5061 | Elasticsearch에 저장된 로그를 Kibana를 통해 분석합�
 
    
 ## Team:  `It's 5K`
+
 | Name    | <center>정윤호</center>|<center>김민석</center> |<center>김상원</center> | <center>라예진</center> | <center>이준희</center>
 | ------- | --------------------------------------------- | ------------------------------------ | --------------------------------------------- | --------------------------------------- | --------------------------------------- |
-| Profile | <img width="150px" src="https://avatars.githubusercontent.com/u/87285536?v=4" />|<img width="150px" src="https://avatars.githubusercontent.com/u/107205708?v=4" />| <img width="150px" src="https://avatars.githubusercontent.com/u/109122419?v=4" />| <img width="150px" src="https://avatars.githubusercontent.com/u/103196409?v=4" />| <img width="150px" src="https://avatars.githubusercontent.com/u/121507763?v=4" />|
+| Profile | <center><img width="60%" height="60%" src="https://avatars.githubusercontent.com/u/87285536?v=4" /></center>|<center><img width="60%" height="60%" src="https://avatars.githubusercontent.com/u/107205708?v=4" /></center>|<center><img width="60%" height="560%" src="https://avatars.githubusercontent.com/u/109122419?v=4" /></center>| <center><img width="60%" height="60%" src="https://avatars.githubusercontent.com/u/103196409?v=4" /></center>|<center> <img width="60%" height="60%" src="https://avatars.githubusercontent.com/u/121507763?v=4" /></center>|
 | role    | <center>Team Leader, <br>Frontend & DevOps</center>   | <center>Frontend</center>    | <center>Backend</center>  | <center>Bakcend</center> | <center>Frontend</center> |
 GitHub | <center>[@yunhobb](https://github.com/yunhobb)</center> | <center>[@minseok1015](https://github.com/minseok1015) </center>| <center>[@Doncham](https://github.com/Doncham) </center>| <center>[@Haaein](https://github.com/Haaein)</center> | <center>[@junvhui](https://github.com/junvhui)</center>
 
