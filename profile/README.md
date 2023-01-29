@@ -9,7 +9,7 @@
 ***
 ## 1. 시스템 아키텍처
 
-<image src="https://user-images.githubusercontent.com/103196409/214876886-5b5bbd0b-0dab-44ea-90a3-b36b70750ab5.png">
+<image src="https://user-images.githubusercontent.com/87285536/215322656-8b618261-7ea5-4d50-a9c6-b40eb503ebc6.png">
 
 ***
 ## 2. 기술 스택
@@ -18,10 +18,11 @@
 
 분야| 사용 기술|
 :--------:|:------------------------------:|
-**Fronted** | <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/ReactQuery-FF4154?style=for-the-badge&logo=reactquery&logoColor=black"> <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white">
-**Backend** | <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white"> <img src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray"> <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=RabbitMQ&logoColor=white"> <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=Celery&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=OpenCV&logoColor=white">
+**Fronted** | <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> ![styled-components](https://img.shields.io/static/v1?style=for-the-badge&message=styled-components&color=DB7093&logo=styled-components&logoColor=FFFFFF&label=) 
+**Backend** | <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white"> <img src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray"> <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=RabbitMQ&logoColor=white"> <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=Celery&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">  <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=OpenCV&logoColor=white">
 **DevOps** | <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=black"> <img src="https://img.shields.io/badge/gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=black"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> 
-**Monitoring** |   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=black"> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=black"> <img src = "https://img.shields.io/badge/-cadvisor-informational"> <img src ="https://img.shields.io/badge/-node--exporter-brightgreen">
+**Monitoring** |   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=black"> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=black"> <img src = "https://img.shields.io/badge/-cadvisor-informational"> <img src ="https://img.shields.io/badge/-node--exporter-brightgreen"> ![Elastic Stack](https://img.shields.io/static/v1?style=for-the-badge&message=Elastic+Stack&color=005571&logo=Elastic+Stack&logoColor=FFFFFF&label=)
+**etc** | ![Slack](https://img.shields.io/static/v1?style=for-the-badge&message=Slack&color=4A154B&logo=Slack&logoColor=FFFFFF&label=) ![Notion](https://img.shields.io/static/v1?style=for-the-badge&message=Notion&color=000000&logo=Notion&logoColor=FFFFFF&label=) ![Figma](https://img.shields.io/static/v1?style=for-the-badge&message=Figma&color=F24E1E&logo=Figma&logoColor=FFFFFF&label=) ![Postman](https://img.shields.io/static/v1?style=for-the-badge&message=Postman&color=FF6C37&logo=Postman&logoColor=FFFFFF&label=) <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"> ![GitKraken](https://img.shields.io/static/v1?style=for-the-badge&message=GitKraken&color=179287&logo=GitKraken&logoColor=FFFFFF&label=) ![Visual Studio Code](https://img.shields.io/static/v1?style=for-the-badge&message=Visual+Studio+Code&color=007ACC&logo=Visual+Studio+Code&logoColor=FFFFFF&label=)
 </div>
 
 ***
@@ -105,8 +106,25 @@ docker compose -f docker-compose.prod.yaml up —build
    
 ## 8. 개발자
 
+
 **이름** | 정윤호 | 김민석 | 김상원 | 라예진 | 이준희
 :---:|:---:|:---:|:---:|:---:|:---:
 역할 | Team Leader, FrontEnd, DevOps | FrontEnd | BackEnd | Backend | FrontEnd
 GitHub | [@yunhobb](https://github.com/yunhobb) | [@minseok1015](https://github.com/minseok1015) | [@Doncham](https://github.com/Doncham) | [@Haaein](https://github.com/Haaein) | [@junvhui](https://github.com/junvhui)
 
+## Detailed Info
+**NAME** | **Port** | **Description**
+:---:|:---:|:---:
+Nginx | 80 | 가벼움과 높은 성능을 목표로 하는 웹서버로 서버로서의 역활과 프록시로서의 역할을 수행합니다
+React(on Nginx)| 80 | 사용자들이 메모, 사진, 스티커를 저장하고서버로부터 사용자들이 저장한 메모, 사진, 스티커를 가져와 보여주는 역할을 합니다
+Django + Gunicorn | 8080 | Rollit의 서버, 모든 내용의 중심에 위치하며, Database와의 소통을 담당합니다.
+Mysql | 3307 | Database
+Celery + RabbitMQ | 5672 | ㄱㄷ
+Grafana | 3001 | Django, cAdvisor, Prometheus, NodeExporter를 통해 전달받은 시간별 메트릭 데이터를 시각화 하여 대시보드로 제공해 줍니다
+cAdvisor | 8081 | 사용중인 도커 컨테이너의 리소스 사용량을 측정하여 시계열 메트릭을 데이터화합니다.
+Prometheus | 9090 | Django의 메트릭 데이터와 cAdvisor, NodeExporter의 시계열 메트릭 데이터를 수집하여 시스템 모니터링을 합니다
+Node Exporter | 9100 | 서버의 cpu, 메모리, 디스크, 네트워크 사용량등 호스트 과련 메트릭 데이터를 수집하여 api로 노출시킵니다.
+Filebeat | - | Nginx의 로그파일을 Filebeat로 수집합니다.
+Logstash | 5044, 9600, 50000|  Filebeat가 수집한 로그를 Logstash에 전달합니다.
+Elasticsearch | 9200, 9300 | Logstash로부터 전달 받은 로그를 Elasticsearch에 저장합니다.
+Kibana | 5061 | Elasticsearch에 저장도니 로그를 Kibana를 통해 분석합니다.
