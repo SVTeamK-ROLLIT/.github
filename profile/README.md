@@ -3,7 +3,7 @@
 
 <image width=25%, height=25%, src="https://user-images.githubusercontent.com/103196409/215019817-217224b4-b638-4fbb-98be-57e4988e9523.png">
 
-***ROLL IT!*** 은 친한 친구 또는 친해지고 싶은 사람 등 다양한 사람들에게 익명의 힘을 빌려 메세지를 남길 수  있는 롤링페이퍼 서비스입니다.
+***ROLL IT!*** 큰 종이에 당신의 마음을 전달해보세요 
 </div>
 
 ***
@@ -29,7 +29,7 @@
 ## 3. ERD
 
 <!--<image src="https://user-images.githubusercontent.com/103196409/214505660-fb892945-ffd9-4a9f-8626-0e2f24182674.png">-->
-![RollIT-ERD](https://user-images.githubusercontent.com/87285536/215337440-88ad8cfd-a827-4c08-9112-fa3e82e7e164.png)
+![RollIT-ERD](https://user-images.githubusercontent.com/87285536/215340380-42a76006-03a1-44bb-949a-c6debd94da13.png)
 - https://www.erdcloud.com/d/ZQmQaTRBR39Hu2MJu
 
 ***
@@ -70,47 +70,16 @@ image | image| image
 ## 6. DEMO
 
 ***
-## 7. 사용 방법
 
->### Clone Repository
-```
-git clone https://github.com/2022-Winter-Bootcamp-Team-K/docker.git
-```
->### Set environment file
-Path : docker/frontend/.env<br>
-프로젝트 연결을 위한 URL 환경변수
-```
-REACT_APP_BACKEND_URL=
-```
-
-Path : docker/backend/backend/.env<br>
-Django secret key, S3 bucket, Email 공유 환경변수
-```
-SECRET_KEY=''
-DEBUG=True
-DATABASE_URL=mysql://root:root@mysqldb:3306/test
-
-AWS_ACCESS_KEY_ID=''
-AWS_SECRET_ACCESS_KEY=''
-AWS_REGION=''
-BUCKET_NAME=''
-EMAIL_ADDR=''
-EMAIL_PASSWORD=''
-```
->### Run
-```
-docker compose -f docker-compose.prod.yaml up —build
-```
+   
+## Team
+| Name    | <center>정윤호</center>|<center>김민석</center> |<center>김상원</center> | <center>라예진</center> | <center>이준희</center>
+| ------- | --------------------------------------------- | ------------------------------------ | --------------------------------------------- | --------------------------------------- | --------------------------------------- |
+| Profile | <img width="150px" src="https://avatars.githubusercontent.com/u/87285536?v=4" />|<img width="150px" src="https://avatars.githubusercontent.com/u/107205708?v=4" />| <img width="150px" src="https://avatars.githubusercontent.com/u/109122419?v=4" />| <img width="150px" src="https://avatars.githubusercontent.com/u/103196409?v=4" />| <img width="150px" src="https://avatars.githubusercontent.com/u/121507763?v=4" />|
+| role    | <center>Team Leader, <br>Frontend & DevOps</center>   | <center>Frontend</center>    | <center>Backend</center>  | <center>Bakcend</center> | <center>Frontend</center> |
+GitHub | <center>[@yunhobb](https://github.com/yunhobb)</center> | <center>[@minseok1015](https://github.com/minseok1015) </center>| <center>[@Doncham](https://github.com/Doncham) </center>| <center>[@Haaein](https://github.com/Haaein)</center> | <center>[@junvhui](https://github.com/junvhui)</center>
 
 ***
-   
-## 8. 개발자
-
-
-**이름** | 정윤호 | 김민석 | 김상원 | 라예진 | 이준희
-:---:|:---:|:---:|:---:|:---:|:---:
-역할 | Team Leader, FrontEnd, DevOps | FrontEnd | BackEnd | Backend | FrontEnd
-GitHub | [@yunhobb](https://github.com/yunhobb) | [@minseok1015](https://github.com/minseok1015) | [@Doncham](https://github.com/Doncham) | [@Haaein](https://github.com/Haaein) | [@junvhui](https://github.com/junvhui)
 
 ## Detailed Info
 **NAME** | **Port** | **Description**
@@ -119,7 +88,8 @@ Nginx | 80 | 가벼움과 높은 성능을 목표로 하는 웹서버로 서버�
 React(on Nginx)| 80 | 사용자들이 메모, 사진, 스티커를 저장하고서버로부터 사용자들이 저장한 메모, 사진, 스티커를 가져와 보여주는 역할을 합니다
 Django + Gunicorn | 8080 | Rollit의 서버, 모든 내용의 중심에 위치하며, Database와의 소통을 담당합니다.
 Mysql | 3307 | Database
-Celery + RabbitMQ | 5672 | ㄱㄷ
+RabbitMQ | 5672 | ㅁ요청에 대한 많은 사용자에게 전달하거나, 요청에 대한 처리 시간이 길 때 사용합니다.
+Celery | - | 비동기 작업을 위해 사용합니다. 분산 메시지 전달을 기반으로 동작하는 비동기 작업 큐 입니다.
 Grafana | 3001 | Django, cAdvisor, Prometheus, NodeExporter를 통해 전달받은 시간별 메트릭 데이터를 시각화 하여 대시보드로 제공해 줍니다
 cAdvisor | 8081 | 사용중인 도커 컨테이너의 리소스 사용량을 측정하여 시계열 메트릭을 데이터화합니다.
 Prometheus | 9090 | Django의 메트릭 데이터와 cAdvisor, NodeExporter의 시계열 메트릭 데이터를 수집하여 시스템 모니터링을 합니다
@@ -127,4 +97,4 @@ Node Exporter | 9100 | 서버의 cpu, 메모리, 디스크, 네트워크 사용�
 Filebeat | - | Nginx의 로그파일을 Filebeat로 수집합니다.
 Logstash | 5044, 9600, 50000|  Filebeat가 수집한 로그를 Logstash에 전달합니다.
 Elasticsearch | 9200, 9300 | Logstash로부터 전달 받은 로그를 Elasticsearch에 저장합니다.
-Kibana | 5061 | Elasticsearch에 저장도니 로그를 Kibana를 통해 분석합니다.
+Kibana | 5061 | Elasticsearch에 저장된 로그를 Kibana를 통해 분석합니다.
