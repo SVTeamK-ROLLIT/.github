@@ -12,7 +12,7 @@
 ***
 ## Demo
 ###  URL: [www.rollit5.link](www.rollit5.link)
-<div align=center>
+<!-- <div align=center> -->
 
 
 **Main**|**Register & Login**
@@ -94,6 +94,20 @@
 </details>
 
 ***
+
+## Monitoring
+Grafana + Prometheus, ELK
+
+**Django** |**Node exporter**
+-----|-----
+<img src = "https://user-images.githubusercontent.com/87285536/215575787-5ff714f6-ab6c-4cf2-9600-c59ab71468eb.gif" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/215575791-206da8e0-9ca2-4978-aab3-ffa7c6c6e92e.gif" width="100%">
+
+
+**cAdvisor** |**ELK**
+-----|-----
+<img src = "https://user-images.githubusercontent.com/87285536/215575787-5ff714f6-ab6c-4cf2-9600-c59ab71468eb.gif" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/215575791-206da8e0-9ca2-4978-aab3-ffa7c6c6e92e.gif" width="100%">
+
+
 ## Detailed Info
 **NAME** | **Port** | **Description**
 :---:|:---:|:---:
@@ -156,7 +170,7 @@ $docker compose -f docker-compose.prod.yaml, docker-compose.elk.yaml up --build
 | Name    | <center>정윤호</center>|<center>김민석</center> |<center>김상원</center> | <center>라예진</center> | <center>이준희</center>
 | ------- | --------------------------------------------- | ------------------------------------ | --------------------------------------------- | --------------------------------------- | --------------------------------------- |
 | Profile | <center> <img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/87285536?v=4" /> </center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/107205708?v=4" /></center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/109122419?v=4" /></center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/103196409?v=4" /></center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/121507763?v=4" /></center>|
-| role    | <center>Team Leader, Frontend,<br>Backend & DevOps</center>   | <center>Frontend &<br> DevOps</center>    | <center>Backend &<br> DevOps</center>  | <center>Bakcend &<br> DevOps</center> | <center>Frontend</center> |
+| role    | <center>Team Leader<br> Frontend,<br>Backend, DevOps</center>   | <center>Frontend,<br> UI/UX ,<br> DevOps</center>    | <center>Backend ,<br> DevOps</center>  | <center>Bakcend ,<br> DevOps</center> | <center>Frontend,<br> UI/UX</center> |
 GitHub | <center>[@yunhobb](https://github.com/yunhobb)</center> | <center>[@minseok1015](https://github.com/minseok1015) </center>| <center>[@Doncham](https://github.com/Doncham) </center>| <center>[@Haaein](https://github.com/Haaein)</center> | <center>[@junvhui](https://github.com/junvhui)</center>
 
 ***
