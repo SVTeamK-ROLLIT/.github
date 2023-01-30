@@ -87,7 +87,43 @@ Elasticsearch | 9200, 9300 | Logstash로부터 전달 받은 로그를 Elasticse
 Kibana | 5061 | Elasticsearch에 저장된 로그를 Kibana를 통해 분석합니다.
 ***
 
-   
+## Start server
+```
+$ git clone --recursive https://github.com/2022-Winter-Bootcamp-Team-K/docker.git
+$ cd fronted
+$ yarn 
+```
+### env setting
+* backend/backend/.env
+```
+SECRET_KEY={DJANGO_SECERT_KEY}
+DEBUG=TRUE
+DATABASE_URL={DATABASE_URL}
+
+AWS_ACCESS_KEY_ID={AWS_ACCESS_KEY_ID}
+AWS_SECRET_ACCESS_KEY={AWS_SECRET_ACCESS_KEY}
+AWS_REGION={AWS_REGION}
+BUCKET_NAME={BUCKET_NAME}
+
+EMAIL_ADDR={EMAIL_ADDR}
+EMAIL_PASSWORD={EMAIL_PASSWORD}
+```
+
+* backend/db/db.env
+```
+MYSQL_DATABASE={DATABASE_NAME}
+MYSQL_ROOT_USER={DATABASE_USER}
+MYSQL_ROOT_PASSWORD={DATABASE_PASSWORD}
+```
+* frontend/.env
+```
+REACT_APP_BACKEND_URL={BACKEND_URL}
+```
+### How to run?
+```
+$docker compose -f docker-compose.prod.yaml, docker-compose.elk.yaml up --build
+```
+*** 
 ## Team:  `It's 5K`
 
 | Name    | <center>정윤호</center>|<center>김민석</center> |<center>김상원</center> | <center>라예진</center> | <center>이준희</center>
