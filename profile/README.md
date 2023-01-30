@@ -45,14 +45,16 @@
 -----|-----
 <img src = "https://user-images.githubusercontent.com/87285536/215576435-83974bb0-4f84-45c6-8990-83a4b8916821.png" width="600px">|<img src = "https://user-images.githubusercontent.com/87285536/215577522-264f53d1-b7fe-4714-b480-d937de22e8f7.gif" width="100%">
 상단에 마이페이지 버튼이 없습니다 메모, 스티커, 사진을 생성만 할 수 있습니다 | 마이페이지에서 생성된 롤링페이퍼의 목록을 배경사진, 제목, 생성일자와 함께 보여줍니다.
+<div style="text-align: left">
 
 **카카오톡 공유하기** 
 -----
 <img src = "https://user-images.githubusercontent.com/87285536/215578243-4e8801b0-ca2b-4ed0-8977-c8911fd477be.png" width="200px">
 <br>
-카카오톡 공유하기 버튼을 통해 외부로 링크를 공유할 수 있습니다.
+카카오톡 공유하기 버튼을 통해 <br>외부로 링크를 공유할 수 있습니다.
 
 ***
+
 ## System Arcitechture
 
 <image src="https://user-images.githubusercontent.com/87285536/215322656-8b618261-7ea5-4d50-a9c6-b40eb503ebc6.png">
@@ -159,3 +161,4 @@ GitHub | <center>[@yunhobb](https://github.com/yunhobb)</center> | <center>[@min
 
 ***
 
+</div>
