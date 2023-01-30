@@ -14,19 +14,43 @@
 ###  URL: [www.rollit5.link](www.rollit5.link)
 <div align=center>
 
-**Main** | **Register** | **Login**
-:---:|:-------:|:---:|
- image | image <!--img src="https://user-images.githubusercontent.com/103196409/214795136-1b9469a5-b9c9-4d2c-9b26-8552aba0a77c.gif" width="100%"--> | image
 
-**Create RollingPaper** | **Add Memo**|**Add Images** 
-:---:|:---:|:---:
-image | image | image
+**Main**|**Register & Login**
+-----|-----
+<img src = "https://user-images.githubusercontent.com/87285536/215571341-97ee3763-97a2-4c89-85d4-1beff1f1d8b2.png" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215571529-83785a98-248c-4b12-a2a8-bd54f2c84749.gif" width="1600px">
+시작화면 페이지 입니다.|이메일과 비밀번호 닉네임을 통해 회원가입을 진행하고 로그인할 수 있습니다.
 
-**Add Sticker** | **My Page** | **Send Url**
-:---:|:---:|:---:
-image | image| image
-</div>
-여기서 일반 사용자 입장이랑 어드민 그리고 처음부터 과정을 다 넣어주면 좋을듯 
+**Make Rolling**|**Add Memo**
+-----|-----
+<img src = "https://user-images.githubusercontent.com/87285536/215572481-5a367317-3788-4da8-ac37-1524e733a1ee.gif" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215572453-69cce01d-dadc-47d9-8ddb-610054d80315.gif" width="1700px">
+제목을 입력하고 다섯가지 테마중에 하나를 선택해 롤링페이퍼를 생성합니다. | 여러가지 옵션을 통해 메모지를 생성하고 위치와 함께 저장합니다.
+
+**Cancel Memo**|**Add Memo**
+-----|-----
+<img src = "https://user-images.githubusercontent.com/87285536/215573130-7b7193c1-8e33-45c6-9b03-8f3a4c25252a.gif" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215575432-05d20b0c-ca09-4918-9c33-b665786d2bbd.gif" width="1700px">
+메모지를 생성하고 위치를 저장하기 전 취소할 수 있습니다.<br>(메모, 스티커, 사진 동일한 기능을 가지고 있습니다.) | 스티커를 선택하고 위치를 저장할 수 있습니다.
+
+
+**Add Photo** |**Add Photo (with filter)**
+-----|-----
+<img src = "https://user-images.githubusercontent.com/87285536/215575787-5ff714f6-ab6c-4cf2-9600-c59ab71468eb.gif" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215575791-206da8e0-9ca2-4978-aab3-ffa7c6c6e92e.gif" width="1700px">
+사진을 선택하고 위치와 크기 각도를 저장합니다.| 필터를 입힌 사진을 선택하고 위치와 크기 각도를 저장합니다.
+
+**Rolling Paper (Admin)** |**Delete Component**
+-----|-----
+<img src = "https://user-images.githubusercontent.com/87285536/215576435-83974bb0-4f84-45c6-8990-83a4b8916821.png" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215577076-1e22e900-c35e-4db6-9b4d-4a1d92a63bf6.gif" width="1700px">
+상단에 마이페이지 버튼이 있고 생성된 메모, 스티커, 사진을 삭제할 수 있습니다.| 관리자로 접속했을시 Component를 삭제할 수 있습니다.
+
+**Rolling Paper (User)** |**Mypage**
+-----|-----
+<img src = "https://user-images.githubusercontent.com/87285536/215576435-83974bb0-4f84-45c6-8990-83a4b8916821.png" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215577522-264f53d1-b7fe-4714-b480-d937de22e8f7.gif" width="1700px">
+상단에 마이페이지 버튼이 없습니다 메모, 스티커, 사진을 생성만 할 수 있습니다 | 마이페이지에서 생성된 롤링페이퍼의 목록을 배경사진, 제목, 생성일자와 함께 보여줍니다.
+
+**카카오톡 공유하기** 
+-----
+<img src = "https://user-images.githubusercontent.com/87285536/215578243-4e8801b0-ca2b-4ed0-8977-c8911fd477be.png" width="200px">
+<br>
+카카오톡 공유하기 버튼을 통해 외부로 링크를 공유할 수 있습니다.
 
 ***
 ## System Arcitechture
@@ -125,6 +149,7 @@ $docker compose -f docker-compose.prod.yaml, docker-compose.elk.yaml up --build
 ```
 *** 
 ## Team:  `It's 5K`
+5명의 K팀이 모였다는 뜻입니다.
 
 | Name    | <center>정윤호</center>|<center>김민석</center> |<center>김상원</center> | <center>라예진</center> | <center>이준희</center>
 | ------- | --------------------------------------------- | ------------------------------------ | --------------------------------------------- | --------------------------------------- | --------------------------------------- |
