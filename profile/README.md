@@ -17,33 +17,33 @@
 
 **Main**|**Register & Login**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215571341-97ee3763-97a2-4c89-85d4-1beff1f1d8b2.png" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215571529-83785a98-248c-4b12-a2a8-bd54f2c84749.gif" width="1600px">
+<img src = "https://user-images.githubusercontent.com/87285536/215571341-97ee3763-97a2-4c89-85d4-1beff1f1d8b2.png" width="600px">|<img src = "https://user-images.githubusercontent.com/87285536/215571529-83785a98-248c-4b12-a2a8-bd54f2c84749.gif" width="100%">
 시작화면 페이지 입니다.|이메일과 비밀번호 닉네임을 통해 회원가입을 진행하고 로그인할 수 있습니다.
 
 **Make Rolling**|**Add Memo**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215572481-5a367317-3788-4da8-ac37-1524e733a1ee.gif" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215572453-69cce01d-dadc-47d9-8ddb-610054d80315.gif" width="1700px">
+<img src = "https://user-images.githubusercontent.com/87285536/215572481-5a367317-3788-4da8-ac37-1524e733a1ee.gif" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/215572453-69cce01d-dadc-47d9-8ddb-610054d80315.gif" width="100%">
 제목을 입력하고 다섯가지 테마중에 하나를 선택해 롤링페이퍼를 생성합니다. | 여러가지 옵션을 통해 메모지를 생성하고 위치와 함께 저장합니다.
 
 **Cancel Memo**|**Add Memo**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215573130-7b7193c1-8e33-45c6-9b03-8f3a4c25252a.gif" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215575432-05d20b0c-ca09-4918-9c33-b665786d2bbd.gif" width="1700px">
+<img src = "https://user-images.githubusercontent.com/87285536/215573130-7b7193c1-8e33-45c6-9b03-8f3a4c25252a.gif" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/215575432-05d20b0c-ca09-4918-9c33-b665786d2bbd.gif" width="100%x">
 메모지를 생성하고 위치를 저장하기 전 취소할 수 있습니다.<br>(메모, 스티커, 사진 동일한 기능을 가지고 있습니다.) | 스티커를 선택하고 위치를 저장할 수 있습니다.
 
 
 **Add Photo** |**Add Photo (with filter)**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215575787-5ff714f6-ab6c-4cf2-9600-c59ab71468eb.gif" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215575791-206da8e0-9ca2-4978-aab3-ffa7c6c6e92e.gif" width="1700px">
+<img src = "https://user-images.githubusercontent.com/87285536/215575787-5ff714f6-ab6c-4cf2-9600-c59ab71468eb.gif" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/215575791-206da8e0-9ca2-4978-aab3-ffa7c6c6e92e.gif" width="100%">
 사진을 선택하고 위치와 크기 각도를 저장합니다.| 필터를 입힌 사진을 선택하고 위치와 크기 각도를 저장합니다.
 
 **Rolling Paper (Admin)** |**Delete Component**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215576435-83974bb0-4f84-45c6-8990-83a4b8916821.png" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215577076-1e22e900-c35e-4db6-9b4d-4a1d92a63bf6.gif" width="1700px">
+<img src = "https://user-images.githubusercontent.com/87285536/215576435-83974bb0-4f84-45c6-8990-83a4b8916821.png" width="600px">|<img src = "https://user-images.githubusercontent.com/87285536/215577076-1e22e900-c35e-4db6-9b4d-4a1d92a63bf6.gif" width="100%">
 상단에 마이페이지 버튼이 있고 생성된 메모, 스티커, 사진을 삭제할 수 있습니다.| 관리자로 접속했을시 Component를 삭제할 수 있습니다.
 
 **Rolling Paper (User)** |**Mypage**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215576435-83974bb0-4f84-45c6-8990-83a4b8916821.png" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215577522-264f53d1-b7fe-4714-b480-d937de22e8f7.gif" width="1700px">
+<img src = "https://user-images.githubusercontent.com/87285536/215576435-83974bb0-4f84-45c6-8990-83a4b8916821.png" width="600px">|<img src = "https://user-images.githubusercontent.com/87285536/215577522-264f53d1-b7fe-4714-b480-d937de22e8f7.gif" width="100%">
 상단에 마이페이지 버튼이 없습니다 메모, 스티커, 사진을 생성만 할 수 있습니다 | 마이페이지에서 생성된 롤링페이퍼의 목록을 배경사진, 제목, 생성일자와 함께 보여줍니다.
 
 **카카오톡 공유하기** 
@@ -154,7 +154,7 @@ $docker compose -f docker-compose.prod.yaml, docker-compose.elk.yaml up --build
 | Name    | <center>정윤호</center>|<center>김민석</center> |<center>김상원</center> | <center>라예진</center> | <center>이준희</center>
 | ------- | --------------------------------------------- | ------------------------------------ | --------------------------------------------- | --------------------------------------- | --------------------------------------- |
 | Profile | <center> <img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/87285536?v=4" /> </center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/107205708?v=4" /></center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/109122419?v=4" /></center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/103196409?v=4" /></center>|<center><img width="100px" height="100px" src="https://avatars.githubusercontent.com/u/121507763?v=4" /></center>|
-| role    | <center>Team Leader, <br>Frontend & DevOps</center>   | <center>Frontend</center>    | <center>Backend</center>  | <center>Bakcend</center> | <center>Frontend</center> |
+| role    | <center>Team Leader, Frontend,<br>Backend & DevOps</center>   | <center>Frontend &<br> DevOps</center>    | <center>Backend &<br> DevOps</center>  | <center>Bakcend &<br> DevOps</center> | <center>Frontend</center> |
 GitHub | <center>[@yunhobb](https://github.com/yunhobb)</center> | <center>[@minseok1015](https://github.com/minseok1015) </center>| <center>[@Doncham](https://github.com/Doncham) </center>| <center>[@Haaein](https://github.com/Haaein)</center> | <center>[@junvhui](https://github.com/junvhui)</center>
 
 ***
