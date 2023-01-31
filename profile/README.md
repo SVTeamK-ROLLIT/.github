@@ -87,9 +87,9 @@
 <summary>swagger</summary>
 <div markdown="1">
 
-![image](https://user-images.githubusercontent.com/103196409/215338660-c5286994-a22f-4d84-9d6c-30cab659effe.png)
-![image](https://user-images.githubusercontent.com/103196409/214562857-220bd0ef-682c-4d77-a9af-55085cdb19d0.png)
-![image](https://user-images.githubusercontent.com/103196409/215338656-e777d43c-edfe-4cfd-9c63-9dea218b3736.png)
+![papers_swagger](https://user-images.githubusercontent.com/103196409/215758674-b285655d-25f3-44a2-9f6e-e90b4aa22777.png)
+![photos_swagger](https://user-images.githubusercontent.com/103196409/214562857-220bd0ef-682c-4d77-a9af-55085cdb19d0.png)
+![users_swagger](https://user-images.githubusercontent.com/103196409/215338656-e777d43c-edfe-4cfd-9c63-9dea218b3736.png)
 </div>
 </details>
 
