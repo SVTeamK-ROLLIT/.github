@@ -100,12 +100,12 @@ Grafana + Prometheus, ELK
 
 **Django** |**Node exporter**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215696724-ce0fcb3a-c58b-4bf0-a9ef-294371062d80.png" width="4000px">|<img src = "https://user-images.githubusercontent.com/87285536/215696530-b83e18d4-ea00-4005-9fa8-e35a2882df89.png" width="100%">
+<img src = "https://user-images.githubusercontent.com/87285536/215696724-ce0fcb3a-c58b-4bf0-a9ef-294371062d80.png" width="7000px">|<img src = "https://user-images.githubusercontent.com/87285536/215696530-b83e18d4-ea00-4005-9fa8-e35a2882df89.png" width="1700px">
 
 
 **cAdvisor** |**ELK**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215696300-9b67a4ed-7748-44fc-b096-4ba8ef661da5.png" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/215697287-ac7a23f1-03ee-4878-94c7-0727b52d2b3b.png" width="4000px">
+<img src = "https://user-images.githubusercontent.com/87285536/215696300-9b67a4ed-7748-44fc-b096-4ba8ef661da5.png" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215697287-ac7a23f1-03ee-4878-94c7-0727b52d2b3b.png" width="7000px">
 
 
 ## Detailed Info
