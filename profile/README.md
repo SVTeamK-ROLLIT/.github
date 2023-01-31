@@ -41,7 +41,7 @@
 <img src = "https://user-images.githubusercontent.com/87285536/215576435-83974bb0-4f84-45c6-8990-83a4b8916821.png" width="600px">|<img src = "https://user-images.githubusercontent.com/87285536/215577076-1e22e900-c35e-4db6-9b4d-4a1d92a63bf6.gif" width="100%">
 상단에 마이페이지 버튼이 있고 생성된 메모, 스티커, 사진을 삭제할 수 있습니다.| 관리자로 접속했을시 Component를 삭제할 수 있습니다.
 
-**Rolling Paper (User)** |**Mypage**
+**Rolling Paper (Guest)** |**Mypage**
 -----|-----
 <img src = "https://user-images.githubusercontent.com/87285536/215576435-83974bb0-4f84-45c6-8990-83a4b8916821.png" width="600px">|<img src = "https://user-images.githubusercontent.com/87285536/215577522-264f53d1-b7fe-4714-b480-d937de22e8f7.gif" width="100%">
 상단에 마이페이지 버튼이 없습니다 메모, 스티커, 사진을 생성만 할 수 있습니다 | 마이페이지에서 생성된 롤링페이퍼의 목록을 배경사진, 제목, 생성일자와 함께 보여줍니다.
