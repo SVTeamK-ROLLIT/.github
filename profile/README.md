@@ -47,9 +47,9 @@
 상단에 마이페이지 버튼이 없습니다 메모, 스티커, 사진을 생성만 할 수 있습니다 | 마이페이지에서 생성된 롤링페이퍼의 목록을 배경사진, 제목, 생성일자와 함께 보여줍니다.
 <div style="text-align: left">
 
-**카카오톡 공유하기** 
+### 카카오톡 공유하기
 -----
-<img src = "https://user-images.githubusercontent.com/87285536/215578243-4e8801b0-ca2b-4ed0-8977-c8911fd477be.png" width="200px">
+<img src = "https://user-images.githubusercontent.com/87285536/215698521-349ae555-13eb-4d45-afa6-83a6e2d0ee6a.png" width="200px">
 <br>
 카카오톡 공유하기 버튼을 통해 <br>외부로 링크를 공유할 수 있습니다.
 
@@ -100,12 +100,12 @@ Grafana + Prometheus, ELK
 
 **Django** |**Node exporter**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215575787-5ff714f6-ab6c-4cf2-9600-c59ab71468eb.gif" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/215575791-206da8e0-9ca2-4978-aab3-ffa7c6c6e92e.gif" width="100%">
+<img src = "https://user-images.githubusercontent.com/87285536/215696724-ce0fcb3a-c58b-4bf0-a9ef-294371062d80.png" width="4000px">|<img src = "https://user-images.githubusercontent.com/87285536/215696530-b83e18d4-ea00-4005-9fa8-e35a2882df89.png" width="100%">
 
 
 **cAdvisor** |**ELK**
 -----|-----
-<img src = "https://user-images.githubusercontent.com/87285536/215575787-5ff714f6-ab6c-4cf2-9600-c59ab71468eb.gif" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/215575791-206da8e0-9ca2-4978-aab3-ffa7c6c6e92e.gif" width="100%">
+<img src = "https://user-images.githubusercontent.com/87285536/215696300-9b67a4ed-7748-44fc-b096-4ba8ef661da5.png" width="100%">|<img src = "https://user-images.githubusercontent.com/87285536/215697287-ac7a23f1-03ee-4878-94c7-0727b52d2b3b.png" width="4000px">
 
 
 ## Detailed Info
@@ -115,7 +115,7 @@ Nginx | 80 | 가벼움과 높은 성능을 목표로 하는 웹서버로 서버�
 React(on Nginx)| 80 | 사용자들이 메모, 사진, 스티커를 저장하고서버로부터 사용자들이 저장한 메모, 사진, 스티커를 가져와 보여주는 역할을 합니다
 Django + Gunicorn | 8080 | Rollit의 서버, 모든 내용의 중심에 위치하며, Database와의 소통을 담당합니다.
 Mysql | 3307 | Database
-RabbitMQ | 5672 | 요청에 대한 많은 사용자에게 전달하거나, 요청에 대한 처리 시간이 길 때 사용합니다.
+RabbitMQ | 5672 | 요청에 대한 처리 시간이 길 때 사용합니다. openCV로 사진을 변환하는 과정이 길어 사용했습니다.
 Celery | - | 비동기 작업을 위해 사용합니다. 분산 메시지 전달을 기반으로 동작하는 비동기 작업 큐 입니다.
 Grafana | 3001 | Django, cAdvisor, Prometheus, NodeExporter를 통해 전달받은 시간별 메트릭 데이터를 시각화 하여 대시보드로 제공해 줍니다
 cAdvisor | 8081 | 사용중인 도커 컨테이너의 리소스 사용량을 측정하여 시계열 메트릭을 데이터화합니다.
@@ -161,7 +161,7 @@ REACT_APP_BACKEND_URL={BACKEND_URL}
 ```
 ### How to run?
 ```
-$docker compose -f docker-compose.prod.yaml, docker-compose.elk.yaml up --build
+$docker compose -f docker-compose.prod.yaml -f docker-compose.elk.yaml up --build
 ```
 *** 
 ## Team:  `It's 5K`
