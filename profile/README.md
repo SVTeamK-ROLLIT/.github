@@ -5,7 +5,7 @@
 
 ***ROLL IT!***
 <br>큰 종이의 한편에 당신의 마음을 전달해보세요
-###  URL: [www.rollit5.link](www.rollit5.link)
+###  URL: [www.rollit5.link](http://www.rollit5.link)
 ### Medium: [Medium](https://medium.com/@say004972/roll-it-online-rolling-paper-service-b2b4e23a47b8)
 </div>
 
