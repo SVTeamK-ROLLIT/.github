@@ -64,7 +64,7 @@
 
 ***
 
-## System Architechture
+## 💻 System Architechture
 
 <image src="https://user-images.githubusercontent.com/87285536/215322656-8b618261-7ea5-4d50-a9c6-b40eb503ebc6.png">
 
