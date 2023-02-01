@@ -1,19 +1,26 @@
-# Introduction
+# 📝 Introduction
 <div align=center>
 
 <image width=25%, height=25%, src="https://user-images.githubusercontent.com/87285536/215344050-6453724d-777d-47b9-bae2-e7a312d341a7.png">
 
 ***ROLL IT!***
 <br>큰 종이의 한편에 당신의 마음을 전달해보세요
+###  URL: [www.rollit5.link](www.rollit5.link)
+### Medium: 
 </div>
 
 
 
 ***
-## Demo
-###  URL: [www.rollit5.link](www.rollit5.link)
+## 📹 Demo
+[![Video Label](https://img.youtube.com/vi/wakZ47IFClk/0.jpg)](https://www.youtube.com/watch?v=wakZ47IFClk)
 <!-- <div align=center> -->
 
+
+
+<details>
+<summary>자세히 보기(여기를 눌러주세요)</summary>
+<div>
 
 **Main**|**Register & Login**
 -----|-----
@@ -49,18 +56,20 @@
 
 ### 카카오톡 공유하기
 -----
-<img src = "https://user-images.githubusercontent.com/87285536/215698521-349ae555-13eb-4d45-afa6-83a6e2d0ee6a.png" width="200px">
+<img src = "https://user-images.githubusercontent.com/87285536/216051029-6c402512-bae2-4939-ad2f-d953938780c4.gif" width="350px">
 <br>
 카카오톡 공유하기 버튼을 통해 <br>외부로 링크를 공유할 수 있습니다.
+</div>
+</details>
 
 ***
 
-## System Arcitechture
+## 💻  System Arcitechture
 
 <image src="https://user-images.githubusercontent.com/87285536/215322656-8b618261-7ea5-4d50-a9c6-b40eb503ebc6.png">
 
 ***
-## Tech stack
+## 💡 Tech stack
 
 <div align =center>
 
@@ -74,16 +83,16 @@
 </div>
 
 ***
-## ERD
+## 💽  ERD
 
 <!--<image src="https://user-images.githubusercontent.com/103196409/214505660-fb892945-ffd9-4a9f-8626-0e2f24182674.png">-->
 ![RollIT-ERD](https://user-images.githubusercontent.com/87285536/215340380-42a76006-03a1-44bb-949a-c6debd94da13.png)
 - https://www.erdcloud.com/d/ZQmQaTRBR39Hu2MJu
 
 ***
-## API
+## 📚 API
 
-<details>
+<!-- <details> -->
 <summary>swagger</summary>
 <div markdown="1">
 
@@ -91,11 +100,11 @@
 ![photos_swagger](https://user-images.githubusercontent.com/103196409/214562857-220bd0ef-682c-4d77-a9af-55085cdb19d0.png)
 ![users_swagger](https://user-images.githubusercontent.com/103196409/215338656-e777d43c-edfe-4cfd-9c63-9dea218b3736.png)
 </div>
-</details>
+<!-- </details> -->
 
 ***
 
-## Monitoring
+## 📈 Monitoring
 Grafana + Prometheus, ELK
 
 **Django** |**Node exporter**
@@ -108,7 +117,7 @@ Grafana + Prometheus, ELK
 <img src = "https://user-images.githubusercontent.com/87285536/215696300-9b67a4ed-7748-44fc-b096-4ba8ef661da5.png" width="1700px">|<img src = "https://user-images.githubusercontent.com/87285536/215697287-ac7a23f1-03ee-4878-94c7-0727b52d2b3b.png" width="7000px">
 
 
-## Detailed Info
+## 🎯 Detailed Info
 **NAME** | **Port** | **Description**
 :---:|:---:|:---:
 Nginx | 80 | 가벼움과 높은 성능을 목표로 하는 웹서버로 서버로서의 역활과 프록시로서의 역할을 수행합니다
@@ -127,7 +136,7 @@ Elasticsearch | 9200, 9300 | Logstash로부터 전달 받은 로그를 Elasticse
 Kibana | 5061 | Elasticsearch에 저장된 로그를 Kibana를 통해 분석합니다.
 ***
 
-## Start server
+## 🚀  How to Start
 ```
 $ git clone --recursive https://github.com/2022-Winter-Bootcamp-Team-K/docker.git
 $ cd fronted
@@ -159,12 +168,12 @@ MYSQL_ROOT_PASSWORD={DATABASE_PASSWORD}
 ```
 REACT_APP_BACKEND_URL={BACKEND_URL}
 ```
-### How to run?
+### Run Docker
 ```
 $docker compose -f docker-compose.prod.yaml -f docker-compose.elk.yaml up --build
 ```
 *** 
-## Team:  `It's 5K`
+## 👨‍👩‍👧‍👧 Team:  `It's 5K`
 5명의 K팀이 모였다는 뜻입니다.
 
 | Name    | <center>정윤호</center>|<center>김민석</center> |<center>김상원</center> | <center>라예진</center> | <center>이준희</center>
