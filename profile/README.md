@@ -1,12 +1,12 @@
 # 📝 Introduction
-방명록:[방명록](http://www.rollit5.link/rolling/e6ae0736-cba0-4ead-a22e-b3c939079ede)
+
 <div align=center>
 
 <image width=25%, height=25%, src="https://user-images.githubusercontent.com/87285536/215344050-6453724d-777d-47b9-bae2-e7a312d341a7.png">
 
 ***ROLL IT!***
 <br>큰 종이의 한편에 당신의 마음을 전달해보세요
-###  URL: [www.rollit5.link](http://www.rollit5.link)
+###  URL: [~~www.rollit5.link~~]() 2023.06 End
 ### Medium: [Medium](https://medium.com/@say004972/roll-it-online-rolling-paper-service-b2b4e23a47b8)
 </div>
 
